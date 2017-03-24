@@ -103,7 +103,7 @@ fact condominioFatos {
 
 -- Todo morador tem uma, e apenas uma casa
 pred umaCasaPorMorador[morador: Morador, t: Time] {
-	lone moradorCasa.t.morador
+	one moradorCasa.t.morador
 }
 
 fact moradorFatos {
